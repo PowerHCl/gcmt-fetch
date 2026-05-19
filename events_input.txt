@@ -1,0 +1,16 @@
+# Sample event list for match_gcmt_ids.py
+# Columns: [ID]  date  lon  lat  depth  Mw  magnitude  [region]  [distance]
+# Leading ID and trailing text (region / distance) are ignored.
+#
+# Run:
+#   python match_gcmt_ids.py events_input.txt -o gcmt_ids.txt
+#   python fetch_gcmt.py -i gcmt_ids.txt -o CMTSOLUTIONS
+#
+1   2014/08/18    47.53   32.59    12.0km   Mw 6.2   Iran-Iraq Border    85-110°
+2   2007/11/29   -61.41   15.06   147.9km   Mw 7.4   Windward Island    120-140°
+3   2015/10/26    70.42   36.55   209.4km   Mw 7.5   Hindu Kush          89-110°
+4   2013/04/09    51.62   28.27    12.0km   Mw 6.3   Southern Iran       90-120°
+5   2016/08/24    94.58   20.79   101.1km   Mw 6.8   Myanmar            100-130°
+6   2015/04/26    85.95   27.56    20.6km   Mw 6.7   Nepal              100-125°
+7   2003/12/26    58.24   29.10    15.0km   Mw 6.6   Southern Iran       95-120°
+8   2002/03/03    70.42   36.57   228.5km   Mw 7.3   Hindu Kush          95-125°
